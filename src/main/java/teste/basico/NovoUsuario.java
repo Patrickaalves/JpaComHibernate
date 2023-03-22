@@ -19,6 +19,8 @@ public class NovoUsuario {
         em.persist(novoUsuario); // Basicamente vai gerar um insert
         em.getTransaction().commit();
 
+        System.out.println("O id gerado foi: "+novoUsuario.getId());
+
         em.close();
         emf.close();
     }
