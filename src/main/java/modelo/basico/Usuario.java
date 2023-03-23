@@ -1,8 +1,6 @@
 package modelo.basico;
 /*Existem duas anotações que prescisamos colocar nos nossos objetos que são entidades*/
 
-import net.bytebuddy.implementation.bind.annotation.Default;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
