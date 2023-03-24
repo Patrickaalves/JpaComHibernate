@@ -6,8 +6,8 @@ import modelo.umpraum.Cliente;
 
 public class NovoClienteAssento2 {
     public static void main(String[] args) {
-        Assento assento = new Assento("4D");
-        Cliente cliente = new Cliente("rodrigo",assento);
+        Assento assento = new Assento("1A");
+        Cliente cliente = new Cliente("saitama",assento);
 
         DAO<Cliente> dao = new DAO<>(Cliente.class);
         dao.incluirAtomico(cliente);
